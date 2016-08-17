@@ -5,12 +5,61 @@ category: [handbook]
 tags: git
 ---
 
-***
-**用户名配置**
-git config --global user.name <your_name>
-例： $ git config --global user.name "eagleless"
 <!--more-->
-***
-**邮箱配置**
-git config --global user.email <your_email@…>
+#	git clone
+>	git clone 拷贝并跟踪远程的master分支。
+>	跟踪的好处是以后可以直接通过pull和push命令来提交或者获取远程最新的代码，而不需要指定远程分支名字。
+
+#	git diff 
+>	对比工作区和stage文件的差异
+
+#	git log
+>	显示到HEAD所指向的commit为止的所有commit记录 。使用reset HEAD~n 命令使HEAD指针向前移动，会导致HEAD之后的commit记录不会被显示。
+
+#	创建类命令
+*	git brach branchName 创建名为branchName的branch 
+*	git checkout branchName 切换到branchName的branch 
+*	git checkout -b 创建并切换，也就是上面两个命令的合并
+*	git brach branchName ef71 从commit ef71创建名为branchName的branch
+
+#	提交类命令
+*	git add 跟踪新文件或者已有文件的改动，或者用来解决冲突
+*	git commit 把文件从stage提交到branch
+*	git commit -a 把修改的文件先提交到stage,然后再从stash提交到branch
+
+#	删除类命令 
+*	git rm --cached readme.txt 只从stage中删除，保留物理文件
+*	git rm readme.txt 不但从stage中删除，同时删除物理文件
+*	git mv a.txt b.txt 把a.txt改名为b.txt
+#	Merge类命令
+
+>	在冲突状态下，需要解决冲突的文件会从index打回到工作区。
+
+>	1.用工具或者手工解决冲突 
+>	2.git add 命令来表明冲突已经解决。 
+>	3.再次commit 已解决冲突的文件。
+
+>	$ git reset --hard ORIG_HEAD 用来撤销已经commit 的merge. 
+>	$ git reset --hard HEAD 用来撤销还没commit 的merge,其实原理就是放弃index和工作区的改动。
+
+>	git reset --merge ORIG_HEAD，注意其中的--hard 换成了 --merge，这样就可以避免在回滚时清除working tree。
+
+#	用户名配置
+	git config --global user.name <your_name>
+例： $ git config --global user.name "eagleless"
+
+#	邮箱配置
+	git config --global user.email <your_email@…>
 例： $ git config --global user.email fox22222@163.com
+
+
+
+
+
+
+
+
+
+
+
+
