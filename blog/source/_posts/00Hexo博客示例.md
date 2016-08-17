@@ -1,5 +1,6 @@
 ---
 title: Hexo使用简介HelloWorld
+date: 2016-08-09 17:37:58
 category: [note]
 tags: hexo
 ---
