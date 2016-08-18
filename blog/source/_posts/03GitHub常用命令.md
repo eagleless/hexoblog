@@ -49,11 +49,11 @@ tags: git
 
 #	用户名配置
 	git config --global user.name <your_name>
-例： $ git config --global user.name "eagleless"
+	例： $ git config --global user.name "eagleless"
 
 #	邮箱配置
 	git config --global user.email <your_email@…>
-例： $ git config --global user.email fox22222@163.com
+	例： $ git config --global user.email fox22222@163.com
 
 
 
