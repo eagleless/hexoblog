@@ -4,7 +4,10 @@ date: 2016-08-10 14:11:15
 category: [handbook]
 tags: git
 ---
-
+>	git clone
+>	git diff 
+>	git log
+>	创建类命令
 <!--more-->
 #	git clone
 >	git clone 拷贝并跟踪远程的master分支。
