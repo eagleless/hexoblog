@@ -1,11 +1,11 @@
 ---
 title: Freemarker内置对象
 date: 2016-08-18 20:32:48
-categorys: [handbook]
+category: [handbook]
 tags: [freemarker,java]
 ---
 
-直接在ftl里使用内置对象:Request,Session,Application,RequestParameters,Parameters。
+_直接在ftl里使用内置对象:Request,Session,Application,RequestParameters,Parameters。_
 
 <!--more-->
 

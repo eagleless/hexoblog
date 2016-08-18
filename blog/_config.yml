@@ -15,7 +15,7 @@ email: fox520527088@163.com
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://www.yangkai0725.com
 root: /
-permalink: posts/:category/:year:month:day/:title.html
+permalink: :year:month:day/:title.html #posts/:category/
 permalink_defaults:
 
 # Directory
@@ -50,6 +50,7 @@ category_map:
   查阅手册: handbook
   笔记: note
   其他: other
+  数据库: database
 tag_map:
 
 # Date / Time format
