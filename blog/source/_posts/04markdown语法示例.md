@@ -8,11 +8,13 @@ tags: [markdown]
 http://www.appinn.com/markdown/
 
 <!--more-->
-Here is an example of AppleScript:
-
-    tell application "Foo"
-        beep
-    end tell
+```java
+public class HelloWorld{
+    public static void main(String[] args){
+        System.out.println("HelloWorld");
+    }
+}
+```
 
 # Markdown表示h1-h6使用语法
 类 Atx 形式则是在行首插入 1 到 6 个 # ，对应到标题 1 到 6 阶
