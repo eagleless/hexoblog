@@ -8,11 +8,20 @@ tags: [markdown]
 http://www.appinn.com/markdown/
 
 <!--more-->
+
+#	Java代码格式
 ```java
 public class HelloWorld{
     public static void main(String[] args){
         System.out.println("HelloWorld");
     }
+}
+```
+
+#	Javascript代码格式
+```javascript
+function jsFunction(){
+	alert("javascript function");
 }
 ```
 
