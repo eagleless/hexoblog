@@ -9,9 +9,11 @@ tags: git
 >	git log
 >	创建类命令
 <!--more-->
+
 #	git clone
->	git clone 拷贝并跟踪远程的master分支。
->	跟踪的好处是以后可以直接通过pull和push命令来提交或者获取远程最新的代码，而不需要指定远程分支名字。
+
+git clone 拷贝并跟踪远程的master分支。
+跟踪的好处是以后可以直接通过pull和push命令来提交或者获取远程最新的代码，而不需要指定远程分支名字。
 
 #	git diff 
 >	对比工作区和stage文件的差异
