@@ -6,10 +6,10 @@ menu:
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
+  #github: "#"
+  #weibo: "#"
+  #rss: "#"
+  #zhihu: "#"
   #douban: "#"
   #mail: "#"
   #facebook: "#"
