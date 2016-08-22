@@ -52,6 +52,7 @@ category_map:
   笔记: note
   其他: other
   数据库: database
+  面试宝典: interview
 tag_map:
 
 # Date / Time format
