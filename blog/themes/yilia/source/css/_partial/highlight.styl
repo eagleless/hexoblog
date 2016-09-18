@@ -31,6 +31,7 @@ $line-numbers
   pre
     @extend $code-block
     color: code-word
+    overflow: hidden   //去除滑动条
     code
       background: none
       text-shadow: none
@@ -43,6 +44,7 @@ $line-numbers
       border: none
       margin: 0
       padding: 0
+      padding-bottom: 5px; //调整最后一行显示
     table
       margin: 0
       width: 100%
