@@ -97,36 +97,38 @@ _说明：DartifactId:项目名称   DgroupId：包结构_
 
 **_JSF Basic_**
 
-    mvn archetype:create -DarchetypeGroupId=org.appfuse.archetypes -DarchetypeArtifactId=appfuse-basic-jsf -DremoteRepositories=http://static.appfuse.org/releases-DarchetypeVersion=2.0 -DgroupId=com.mycompany.app -DartifactId=myproject 
-
+```bash
+mvn archetype:create -DarchetypeGroupId=org.appfuse.archetypes -DarchetypeArtifactId=appfuse-basic-jsf -DremoteRepositories=http://static.appfuse.org/releases-DarchetypeVersion=2.0 -DgroupId=com.mycompany.app -DartifactId=myproject 
+```
 **_Spring MVC Basic_**
-
-    mvn archetype:create -DarchetypeGroupId=org.appfuse.archetypes -DarchetypeArtifactId=appfuse-basic-spring -DremoteRepositories=http://static.appfuse.org/releases-DarchetypeVersion=2.0 -DgroupId=com.mycompany.app -DartifactId=myproject 
-
+```bash
+mvn archetype:create -DarchetypeGroupId=org.appfuse.archetypes -DarchetypeArtifactId=appfuse-basic-spring -DremoteRepositories=http://static.appfuse.org/releases-DarchetypeVersion=2.0 -DgroupId=com.mycompany.app -DartifactId=myproject 
+```
 **_Struts 2 Basic_** 
-  
-    mvn archetype:create -DarchetypeGroupId=org.appfuse.archetypes -DarchetypeArtifactId=appfuse-basic-struts -DremoteRepositories=http://static.appfuse.org/releases-DarchetypeVersion=2.0 -DgroupId=com.mycompany.app -DartifactId=myproject 
-
+```bash
+mvn archetype:create -DarchetypeGroupId=org.appfuse.archetypes -DarchetypeArtifactId=appfuse-basic-struts -DremoteRepositories=http://static.appfuse.org/releases-DarchetypeVersion=2.0 -DgroupId=com.mycompany.app -DartifactId=myproject 
+```
 **_Tapestry Basic_** 
-
-    mvn archetype:create -DarchetypeGroupId=org.appfuse.archetypes -DarchetypeArtifactId=appfuse-basic-tapestry -DremoteRepositories=http://static.appfuse.org/releases-DarchetypeVersion=2.0 -DgroupId=com.mycompany.app -DartifactId=myproject 
-
+```bash
+mvn archetype:create -DarchetypeGroupId=org.appfuse.archetypes -DarchetypeArtifactId=appfuse-basic-tapestry -DremoteRepositories=http://static.appfuse.org/releases-DarchetypeVersion=2.0 -DgroupId=com.mycompany.app -DartifactId=myproject 
+```
 **_JSF Modula_**
-
-    mvn archetype:create -DarchetypeGroupId=org.appfuse.archetypes -DarchetypeArtifactId=appfuse-modular-jsf -DremoteRepositories=http://static.appfuse.org/releases-DarchetypeVersion=2.0 -DgroupId=com.mycompany.app -DartifactId=myproject 
-
+```bash
+mvn archetype:create -DarchetypeGroupId=org.appfuse.archetypes -DarchetypeArtifactId=appfuse-modular-jsf -DremoteRepositories=http://static.appfuse.org/releases-DarchetypeVersion=2.0 -DgroupId=com.mycompany.app -DartifactId=myproject 
+```
 **_Spring MVC Modular_**
-
-    mvn archetype:create -DarchetypeGroupId=org.appfuse.archetypes -DarchetypeArtifactId=appfuse-modular-spring -DremoteRepositories=http://static.appfuse.org/releases-DarchetypeVersion=2.0 -DgroupId=com.mycompany.app -DartifactId=myproject 
-
+```bash
+mvn archetype:create -DarchetypeGroupId=org.appfuse.archetypes -DarchetypeArtifactId=appfuse-modular-spring -DremoteRepositories=http://static.appfuse.org/releases-DarchetypeVersion=2.0 -DgroupId=com.mycompany.app -DartifactId=myproject 
+```
 **_Struts 2 Modular_**
-
-    mvn archetype:create -DarchetypeGroupId=org.appfuse.archetypes -DarchetypeArtifactId=appfuse-modular-struts -DremoteRepositories=http://static.appfuse.org/releases-DarchetypeVersion=2.0 -DgroupId=com.mycompany.app -DartifactId=myproject 
-
+```bash
+mvn archetype:create -DarchetypeGroupId=org.appfuse.archetypes -DarchetypeArtifactId=appfuse-modular-struts -DremoteRepositories=http://static.appfuse.org/releases-DarchetypeVersion=2.0 -DgroupId=com.mycompany.app -DartifactId=myproject 
+```
 **_Tapestry Modular_** 
-
-    mvn archetype:create -DarchetypeGroupId=org.appfuse.archetypes -DarchetypeArtifactId=appfuse-modular-tapestry -DremoteRepositories=http://static.appfuse.org/releases-DarchetypeVersion=2.0 -DgroupId=com.mycompany.app -DartifactId=myproject 
-
+```bash
+mvn archetype:create -DarchetypeGroupId=org.appfuse.archetypes -DarchetypeArtifactId=appfuse-modular-tapestry -DremoteRepositories=http://static.appfuse.org/releases-DarchetypeVersion=2.0 -DgroupId=com.mycompany.app -DartifactId=myproject 
+```
 **_Core(backend only)_**
-
-    mvn archetype:create -DarchetypeGroupId=org.appfuse.archetypes -DarchetypeArtifactId=appfuse-core -DremoteRepositories=http://static.appfuse.org/releases-DarchetypeVersion=2.0 -DgroupId=com.mycompany.app -DartifactId=myproject
+```bash
+mvn archetype:create -DarchetypeGroupId=org.appfuse.archetypes -DarchetypeArtifactId=appfuse-core -DremoteRepositories=http://static.appfuse.org/releases-DarchetypeVersion=2.0 -DgroupId=com.mycompany.app -DartifactId=myproject
+```

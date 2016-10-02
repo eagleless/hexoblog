@@ -30,6 +30,7 @@ List<Person> getPeople();
     <jaxrs:serviceBeans>
         <ref bean="userManager"/>
     </jaxrs:serviceBeans>
+
 `http://localhost:8080/services/api/users.json`
 也可以这样访问`http://localhost:8080/services/api/users`
 但必须给User添加@XmlRootElement注解
@@ -54,6 +55,7 @@ SOAP:Simple Object Access Protocol简单对象访问协议
         //...
     }
 ```
+
 最好提供无参构造器，以满足JAX-WS
 `src/main/webapp/WEB-INF/cxf-servlet.xml` 中添加
 
@@ -65,11 +67,12 @@ http://localhost:8080/services/UserService?wsdl
 
 >   wsdl2java生成java源码
 
-    wsdl2java -s E:\myToolsApi\studyTools\tools\webservice\cxf\gen_src\src -uri http://localhost:8088/cxfws/services/Hellows?wsdl
+```bash
+wsdl2java -s E:\myToolsApi\studyTools\tools\webservice\cxf\gen_src\src -uri http://localhost:8088/cxfws/services/Hellows?wsdl
 
-    wsimport –s . client http://localhost:8088/cxfws/services/Hellows?wsdl
+wsimport –s . client http://localhost:8088/cxfws/services/Hellows?wsdl
 
-    wsimport -s . http://127.0.0.1:8088/cxfws/services/Hellows?wsdl
+wsimport -s . http://127.0.0.1:8088/cxfws/services/Hellows?wsdl
 
-    wsdl2java -s . -uri http://localhost:8088/cxfws/services/Hellows?wsdl
-
+wsdl2java -s . -uri http://localhost:8088/cxfws/services/Hellows?wsdl
+```
