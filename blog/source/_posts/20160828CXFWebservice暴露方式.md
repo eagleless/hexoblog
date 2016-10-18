@@ -67,12 +67,7 @@ http://localhost:8080/services/UserService?wsdl
 
 >   wsdl2java生成java源码
 
-```bash
-wsdl2java -s E:\myToolsApi\studyTools\tools\webservice\cxf\gen_src\src -uri http://localhost:8088/cxfws/services/Hellows?wsdl
-
-wsimport –s . client http://localhost:8088/cxfws/services/Hellows?wsdl
-
-wsimport -s . http://127.0.0.1:8088/cxfws/services/Hellows?wsdl
-
-wsdl2java -s . -uri http://localhost:8088/cxfws/services/Hellows?wsdl
-```
+    wsdl2java -s E:\myToolsApi\studyTools\tools\webservice\cxf\gen_src\src -uri http://localhost:8088/cxfws/services/Hellows?wsdl
+    wsimport –s . client http://localhost:8088/cxfws/services/Hellows?wsdl
+    wsimport -s . http://127.0.0.1:8088/cxfws/services/Hellows?wsdl
+    wsdl2java -s . -uri http://localhost:8088/cxfws/services/Hellows?wsdl

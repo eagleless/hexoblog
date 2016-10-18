@@ -14,7 +14,8 @@ Javascript键盘事件。
 ```javascript
 $("input[name='password']",loginForm).keyup(function(e){
     var ev = document.all ? window.event : e;  
-    if(ev.keyCode==13) {// 如（ev.ctrlKey && ev.keyCode==13）为ctrl+Center 触发
+    if(ev.keyCode==13) {
+    // 如（ev.ctrlKey && ev.keyCode==13）为ctrl+Center 触发
         $("#ulogin").click();
     }  
 });
