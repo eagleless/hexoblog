@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Kai.Yang' Blog #站点名
+title: 无名氏无情兮 #站点名
 subtitle: 生命不止、奋斗不息 #副标题
 description: Walk steps step by step #给搜索引擎看的，对站点的描述，可以自定义
 author: kaiyang
@@ -13,7 +13,7 @@ email: fox520527088@163.com
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://www.yangkai0725.com
+url: https://eagleless.github.io
 root: /
 permalink: :year:month:day/:title.html #posts/:category/
 permalink_defaults:
