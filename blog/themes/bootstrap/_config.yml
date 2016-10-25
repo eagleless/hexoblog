@@ -1,0 +1,32 @@
+# Header
+navbar_brand: false
+menu:
+  主页: index.html
+  所有文章: archives/
+rss: /atom.xml
+
+# Content
+excerpt_link: Read More
+fancybox: false
+
+# Sidebar
+widgets:
+- about         # See also: `about_content`
+- category
+- tag
+- tagcloud
+- archive
+- recent_posts
+about_widget_content: >
+  <p>我是谁，我从哪里来，我到哪里去？我就是我，是颜色不一样的吃货…</p>
+# widget behavior
+archive_type: 'monthly'
+show_count: true
+
+# Miscellaneous
+google_analytics:
+favicon:
+twitter_id:
+google_plus:
+fb_admins:
+fb_app_id:
