@@ -72,7 +72,7 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 #theme: landscape
 #theme: yilia
-theme: bootstrap-blog
+theme: bootstrap
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
