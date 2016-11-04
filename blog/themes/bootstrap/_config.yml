@@ -11,14 +11,14 @@ fancybox: false
 
 # Sidebar
 widgets:
-- about         # See also: `about_content`
-- category
-- tag
-- tagcloud
-- archive
 - recent_posts
+#- category
+- tag
+#- tagcloud
+- archive
+- about         # See also: `about_content`
 about_widget_content: >
-  <p>我是谁，我从哪里来，我到哪里去？我就是我，是颜色不一样的吃货…</p>
+  <p>我是谁，我从哪里来，我到哪里去？我就是我！</p>
 # widget behavior
 archive_type: 'monthly'
 show_count: true
