@@ -1,7 +1,7 @@
 ---
 title: Java爬虫HelloWorld
 date: 2016-11-04 18:00:22
-tags: [splide]
+tags: [spider]
 ---
 使用爬虫获取产品信息。
 <!--more-->
