@@ -18,7 +18,7 @@ widgets:
 - archive
 - about         # See also: `about_content`
 about_widget_content: >
-  <p>我是谁，我从哪里来，我到哪里去？我就是我！</p>
+  <p>生活不怕忽悠，关键是要在忽悠中成长，不要在同一条河流淹死n次。</p>
 # widget behavior
 archive_type: 'monthly'
 show_count: true
